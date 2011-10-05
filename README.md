@@ -37,14 +37,14 @@ And you don't have to have everything on one line, either. If your braces
 don't match, then Console will assume that you're building a "stack" of
 commands:
 
-```Kohana 3.2.0> foreach (array(1, 2, 3) as $v) {
-...> 	echo $v, PHP_EOL;
-...> }
-...> 
-1
-2
-3
-Kohana 3.2.0> ```
+    Kohana 3.2.0> foreach (array(1, 2, 3) as $v) {
+    ...> 	echo $v, PHP_EOL;
+    ...> }
+    ...> 
+    1
+    2
+    3
+    Kohana 3.2.0>
 
 Once you've started a "stack", simply enter a blank line at the "...> " prompt
 to execute it.
