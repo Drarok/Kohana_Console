@@ -11,12 +11,12 @@ objects, run methods, quickly test ideas, etc.
 Drop this directory somewhere on your development machine, add it to your 
 application's bootstrap.php and run the following code in your htdocs folder:
 
-`php index.php --uri=console`
+    php index.php --uri=console
 
 You should then see a prompt like the following:
 
-`Enter an empty line to exit.
-Kohana 3.2.0> `
+    Enter an empty line to exit.
+    Kohana 3.2.0>
 
 ## What can I do with it?
 
